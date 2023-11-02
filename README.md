@@ -1,1 +1,1 @@
-# Desenvolvimentode Sistemas SENAI
+# Desenvolvimento de Sistemas SENAI
