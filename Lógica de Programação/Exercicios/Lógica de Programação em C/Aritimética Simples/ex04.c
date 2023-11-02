@@ -1,5 +1,7 @@
 /*
-4. Calcule e exiba a área de um triângulo a partir dos valores da base e altura, que serão digitados. A área representa a área de impacto de um poderoso ataque Z.*/
+4. Área de um Triângulo Z:
+
+Calcule e exiba a área de um triângulo a partir dos valores da base e altura, que serão digitados. A área representa a área de impacto de um poderoso ataque Z.*/
 
 // Importação de Biblitoecas
 
