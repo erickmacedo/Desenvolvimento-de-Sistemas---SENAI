@@ -1,13 +1,15 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <locale.h>
-
 /*
-1.Medindo a Área do Planeta Namek:
+1. Medindo a Área do Planeta Namek:
 
 Entre via teclado com a base e a altura de um retângulo. Calcule e exiba a área, que representa a extensão do solo em Namek.
 */
 
+
+// Importação de Biblitoecas
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <locale.h>
 
 int main (){
 
