@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
 
     //Declaração das variavéis
 	
-	float diametro, raio, volume, area;
+	float diametro, raio, volume;
 
     //Entrada de Dados dos usuários
 	
