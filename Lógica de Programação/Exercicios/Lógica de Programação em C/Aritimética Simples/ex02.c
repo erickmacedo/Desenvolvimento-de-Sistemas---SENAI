@@ -12,7 +12,7 @@ Calcule e exiba a área de um quadrado, usando o valor de sua aresta que será d
 
 int main (){
 
-    //Definicição do teclado para aceitar caracters especiais
+    //Definicição do teclado para aceitar teclado brasileiro
 
     setlocale(LC_ALL, "portuguese_brazil");
 

@@ -12,7 +12,7 @@ Entre via teclado com a velocidade inicial em Namekianos por segundo (m/s), a ac
 
 int main(int argc, char *argv[]) {
 
-    //Definicição do teclado para aceitar caracters especiais
+    //Definicição do teclado para aceitar teclado brasileiro
 	
 	setlocale(LC_ALL, "Portuguese");
 

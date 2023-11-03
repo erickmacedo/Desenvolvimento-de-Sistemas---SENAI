@@ -14,7 +14,7 @@ Calcule e exiba a área de uma esfera usando o valor de seu diâmetro, que será
 #define PI 3.14159265359
 
 int main(int argc, char *argv[]) {
-	//Definicição do teclado para aceitar caracters especiais
+	//Definicição do teclado para aceitar teclado brasileiro
 
 	setlocale(LC_ALL, "Portuguese");
 

@@ -13,7 +13,7 @@ Entre via teclado com a base e a altura de um retângulo. Calcule e exiba a áre
 
 int main (){
 
-    //Definicição do teclado para aceitar caracters especiais
+    //Definicição do teclado para aceitar teclado brasileiro
 
     setlocale(LC_ALL, "portuguese_brasil");
 

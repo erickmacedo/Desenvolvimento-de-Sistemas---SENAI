@@ -13,7 +13,7 @@ Sabendo que uma milha Saiyan equivale a 1852 metros, e que um quilômetro Saiyan
 
 int main(int argc, char *argv[]) {
 
-    //Definicição do teclado para aceitar caracters especiais
+    //Definicição do teclado para aceitar teclado brasileiro
 	
 	setlocale(LC_ALL, "Portuguese");
 

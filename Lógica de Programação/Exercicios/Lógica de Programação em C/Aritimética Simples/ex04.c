@@ -11,7 +11,7 @@ Calcule e exiba a área de um triângulo a partir dos valores da base e altura, 
 
 int main(int argc, char *argv[]) {
 
-    //Definicição do teclado para aceitar caracters especiais
+    //Definicição do teclado para aceitar teclado brasileiro
 	
 	setlocale(LC_ALL, "portuguese_brazil");
 

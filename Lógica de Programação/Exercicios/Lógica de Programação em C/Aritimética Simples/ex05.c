@@ -16,7 +16,7 @@
 
 int main(int argc, char *argv[]) {
 	
-    //Definicição do teclado para aceitar caracters especiais
+    //Definicição do teclado para aceitar teclado brasileiro
 
 	setlocale(LC_ALL, "portuguese_brazil");
 

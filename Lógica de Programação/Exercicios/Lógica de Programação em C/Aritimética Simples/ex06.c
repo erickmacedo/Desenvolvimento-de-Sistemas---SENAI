@@ -16,7 +16,7 @@ diâmetro, que será digitado. O volume é a capacidade da Esfera do Dragão de 
 
 int main(int argc, char *argv[]) {
 
-    //Definicição do teclado para aceitar caracters especiais
+    //Definicição do teclado para teclado brasileiro
 	
 	setlocale(LC_ALL, "Portuguese");
 
