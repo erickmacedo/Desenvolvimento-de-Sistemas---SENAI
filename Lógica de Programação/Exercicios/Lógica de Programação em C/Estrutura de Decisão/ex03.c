@@ -18,20 +18,22 @@ int main(int argc, char *argv[]) {
 
     //Declaração das variavéis
 
-    float a, b;
+    float saiyanjin1, saiyajin2;
 
     //Entrada de Dados dos usuários
 
-    printf("Insira o valor do lado A: ");
-    scanf("%f", &a);
-    printf("Insira o valor do lado B: ");
-    scanf("%f", &b);
+    printf("Insira o valor do Saiyajins 1: ");
+    scanf("%f", &saiyanjin1);
+    printf("Insira o valor do Saiyajins 2: ");
+    scanf("%f", &saiyajin2);
 
     // Análise para verificar qual dos dois ladso é mais o mais fraco
-    if(a > b)
-        printf("O lado B é o mais fraco");
-    else if(b > a)
-        printf("O lado A é o mais fraco");
+    if(saiyanjin1 > saiyajin2)
+        printf("O Saiyanjin 1 é o mais poderoso");
+    else if(saiyajin2 > saiyanjin1)
+        printf("O Saiyanjin 2 é o mais poderoso");
+    else
+        printf("O 2 Saiyanjins tem poderes identicos");
         
 	return 0;
 }

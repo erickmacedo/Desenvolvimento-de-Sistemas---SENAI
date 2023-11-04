@@ -27,13 +27,11 @@ int main(int argc, char *argv[]) {
     printf("Insira o valor do poder de Vedita: ");
     scanf("%f", &vedita);
 
-    // Análise para verificar qual dos dois é mais poderoso
+    // Análise para verificar qual é o mais poderoso
     if(goku > vedita)
         printf("Goku é o mais poderoso");
     else if(vedita > goku)
         printf("Vedita é mais poderoso");
-    else
-        printf("Os poderes são iguais!");
-        
+
 	return 0;
 }
