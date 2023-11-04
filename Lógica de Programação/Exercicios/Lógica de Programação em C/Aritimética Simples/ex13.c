@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
 
     //Declaração das variavéis
 	
-    float vInicial, aceleracao, tempPercuso;
+    float vInicial, vFinal, aceleracao, tempPercuso;
 
     //Entrada de Dados dos usuários
 
@@ -30,14 +30,18 @@ int main(int argc, char *argv[]) {
 
     printf("Insira o o tempo do percuso em segundos: ");
     scanf("%f", &tempPercuso);
-
-    //Calculo da velocidade final
     
-   fahrenheit = (32 + ((1.8) * celsius));
+    // Calcular a velocidade final em m/s
+
+    vFinal = vInicial + aceleracao * tempPercuso;
+
+    // Converter a velocidade final de m/s para km/h
+
+    vFinal *= 3.6;
 
     // Exibição do Resultado na Tela
 
-	printf("### O valor da tensao do circuito energetico eh de %.2f F", fahrenheit);
+	printf("### A velocidade final do automovel eh: %.2f KM/H", vFinal);
 	
 	return 0;
 }
