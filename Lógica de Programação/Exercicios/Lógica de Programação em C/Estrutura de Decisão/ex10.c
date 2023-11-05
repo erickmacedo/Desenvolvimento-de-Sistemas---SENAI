@@ -16,25 +16,50 @@ int main(int argc, char *argv[]) {
 
     //Declaração das variavéis
 
-    float ki, chakra, haki;
+    float energia, altura, relacao;
+    char guerreiro;
 
     //Entrada de Dados dos usuários
 
-    printf("Insira o valor do Ki: ");
-    scanf("%f", &ki);
-    printf("Insira o valor do Chakra: ");
-    scanf("%f", &chakra);
-    printf("Insira o valor do Haki: ");
-    scanf("%f", &haki);
-
-    // Validação se é possivel formar um triangulo retangulo com os valores digitados
+    printf("Insira o valor da energia do Guerreiro: ");
+    scanf("%f", &energia);
+    printf("Insira o valor da altura do guerreiro: ");
+    scanf("%f", &altura);
+    printf("Insira o tipo do guerreiro: (S - Saiyan / N - Namekusejin)");
+    scanf(" %c", &guerreiro);
     
-    if((ki*ki) == ((haki*haki)+(chakra*chakra)))
-        printf("E possivel formar um triangulo retangulo a partir dos valores digitados");
-    else
-        printf("Não é possivel formar o triangulo retangulo!");
 
+    // Validar entrada da variavel tipo de guerreiro
     
+    while(guerreiro != 'S' && guerreiro != 'N'){
+        printf("\nPor favor insira corretamente o tipo de guerreiro, lembrando que é S para Saiyan e N para Namekusejin: ");        
+        scanf(" %c", &guerreiro);
+    }
+
+    // Calcular relação entre o nivel de energia e altura
+
+    relacao = (energia / (altura * altura));
+
+    printf("\n Relação: %f\n", relacao);
+
+    // Exibe na tela se o guerreiro está com o poder ideal
+
+    if(guerreiro == 'S'){
+        if(relacao < 19)
+            printf("Abaixo do nível de poder ideal de um Saiyan");
+        else if(relacao <= 19 && relacao < 24)
+            printf("Está no nível de poder ideal de um Saiyan");
+        else
+            printf("Acima do nível de poder ideal de um Saiyan");
+    }
+    else if(guerreiro == 'N'){
+        if(relacao < 20)
+            printf("Abaixo do nível de poder ideal de um Namekuseijin");
+        else if(relacao <= 20 && relacao < 25)
+            printf("Está no nível de poder ideal de um Namekuseijin");
+        else
+            printf("Acima do nível de poder ideal de um Namekuseijin");
+    }
         
 	return 0;
 }
