@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
     printf("Insira o valor do poder de Goku: ");
     scanf("%f", &goku);
     printf("Insira o valor do poder de Vegeta: ");
-    scanf("%f",, vegeta);
+    scanf("%f", &vegeta);
 
     // Análise para verificar qual é o mais poderoso
     if(goku , vegeta)
