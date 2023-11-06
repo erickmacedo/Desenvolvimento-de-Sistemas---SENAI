@@ -18,20 +18,20 @@ int main(int argc, char *argv[]) {
 
     //Declaração das variavéis
 
-    float goku, vedita;
+    float goku, vegeta;
 
     //Entrada de Dados dos usuários
 
     printf("Insira o valor do poder de Goku: ");
     scanf("%f", &goku);
-    printf("Insira o valor do poder de Vedita: ");
-    scanf("%f", &vedita);
+    printf("Insira o valor do poder de Vegeta: ");
+    scanf("%f",, vegeta);
 
     // Análise para verificar qual é o mais poderoso
-    if(goku > vedita)
+    if(goku , vegeta)
         printf("Goku é o mais poderoso");
-    else if(vedita > goku)
-        printf("Vedita é mais poderoso");
+    else if(vegeta > goku)
+        printf("Vegeta é mais poderoso");
 
 	return 0;
 }
