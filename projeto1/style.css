@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #555;
+    color: #fff;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+#sobre {
+    margin-bottom: 30px;
+}
+
+.perfil {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #007BFF;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+li img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.perfil{
+    margin-left: 0;
+    text-align: left;
+}
+
+#txtperfil{
+    display: flex;
+}
+
+#txtperfil2{
+    margin-left: 30px;
+    margin-top: 40px;
+
+}
+
+#expprof{
+    margin-top: 30px;
+    display: flex;
+}
+
+.imagemexp{
+    margin-top: 10px;
+    width: 480px;
+    height: 350px;
+}
+
+#habtec{
+    margin-top: 30px;
+    display: flex;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#txthabtec{
+    margin-top: 30px;
+    margin-left: 30px;
+
+
+}
+
+#txtexpprof{
+    margin-right: 20px;
+}
+.imghab{
+    margin-top: 20px;
+    width: 480px;
+    height: 270px;
+}
