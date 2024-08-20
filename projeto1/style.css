@@ -77,11 +77,6 @@ footer {
     margin-top: 20px;
 }
 
-.perfil{
-    margin-left: 0;
-    text-align: left;
-}
-
 #txtperfil{
     display: flex;
 }
