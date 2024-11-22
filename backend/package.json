@@ -1,0 +1,37 @@
+{
+  "name": "erickalmeida",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "",
+    "email": "erick98macedo@gmail.com",
+    "url": "https://seusite.com"
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "node --watch --env-file=.env app.js",
+    "test": ""
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "db": "^6.0.3",
+    "express": "^4.21.1",
+    "mongo": "^0.1.0",
+    "mqtt": "^5.10.2"
+  }
+}
